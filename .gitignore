@@ -1,0 +1,8 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+**/credentials.json
+secrets.tfvars
+.idea
+.terraform
+**/plan.bin
+terraform.tfstate
+.terraform.tfstate.lock.info
